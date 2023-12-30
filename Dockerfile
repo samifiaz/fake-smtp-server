@@ -1,5 +1,4 @@
-FROM node:10.15.2-alpine
-
+FROM node:latest
 COPY . /www
 
 WORKDIR /www
